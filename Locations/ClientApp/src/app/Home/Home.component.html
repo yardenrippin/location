@@ -1,0 +1,34 @@
+<div class="container">
+
+  <h1>Select  Location To Create File</h1>
+
+  <form #rgiester="ngForm" class="was-validated" (ngSubmit)="register()" required>
+    <label>Enter address</label>
+    <input type="text"[(ngModel)]="address" name="address" class="form-control is-invalid"
+     (keydown.enter)="$event.preventDefault()"
+      required placeholder="Search Nearest Location"
+       autocorrect="off" autocapitalize="off" spellcheck="off"  #search>
+      
+
+
+    <div class="mb-3">
+      <label for="validationTextarea">File Name</label>
+      <input [(ngModel)]="filename" type="text" class="form-control is-invalid"
+      name="filename" id="validationTextarea" placeholder="Enter file name" required>
+     
+    </div>
+
+<button  [disabled]="rgiester.form.invalid"  type="submit"  class="btn btn-primary" > Submit </button>
+  </form>
+
+  <agm-map [latitude]="latitude" [longitude]="longitude" [zoom]="zoom">
+    <agm-marker [latitude]="latitude" [longitude]="longitude" [markerDraggable]="true"
+      (dragEnd)="markerDragEnd($event)"></agm-marker>
+  </agm-map>
+
+  <h5>Address: {{address}}</h5>
+  <div>Latitude: {{latitude}}</div>
+  <div>Longitude: {{longitude}}</div>
+</div>
+
+

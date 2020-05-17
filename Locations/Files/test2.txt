@@ -1,0 +1,5 @@
+New file created: 17/05/2020 17:06:21
+Location Name: Xanten  46509 
+latitud: 51.65710809999999
+longitude: 6.448650399999999
+ip: 1234

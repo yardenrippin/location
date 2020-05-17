@@ -1,0 +1,20 @@
+﻿using Microsoft.EntityFrameworkCore;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace Locations.Data
+{
+    public class DataContext  : DbContext
+    {
+        public DataContext(DbContextOptions<DataContext> options) : base(options)
+        {
+
+        }
+        public DbSet<My_Location> Locations { get; set; }
+
+   
+
+    }
+}

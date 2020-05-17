@@ -1,0 +1,5 @@
+New file created: 17/05/2020 21:18:49
+Location Name: Tel Aviv-Yafo Tel Aviv District Israel Israel Building Residency Road Shanthala Nagar Richmond Town Bengaluru Bangalore Urban Karnataka India 560025  
+latitud: 12.9721939
+longitude: 77.6071623
+ip: 1234

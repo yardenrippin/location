@@ -1,0 +1,5 @@
+New file created: 17/05/2020 21:12:28
+Location Name: Israel Eldad Street Jerusalem  
+latitud: 31.75194340000001
+longitude: 35.2256158
+ip: 1234

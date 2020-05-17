@@ -1,0 +1,5 @@
+New file created: 17/05/2020 21:36:45
+Location Name: Denver Denver County Colorado United States  
+latitud: 39.7392358
+longitude: -104.990251
+ip: 1234

@@ -1,0 +1,5 @@
+New file created: 17/05/2020 17:05:20
+Location Name: undefined 
+latitud: 35.86166000000001
+longitude: 104.195397
+ip: 1234

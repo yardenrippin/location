@@ -1,0 +1,5 @@
+New file created: 17/05/2020 21:19:15
+Location Name: Fresno Fresno County California United States  
+latitud: 36.7377981
+longitude: -119.7871247
+ip: 1234
